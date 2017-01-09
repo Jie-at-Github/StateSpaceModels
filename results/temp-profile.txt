@@ -1,0 +1,120 @@
+Sun Jan  8 21:51:35 2017    /tmp/prof(10)
+
+         970035 function calls in 122.652 seconds
+
+   Ordered by: cumulative time
+   List reduced from 226 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001  122.652  122.652 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:41(__init__)
+        1    3.203    3.203  122.441  122.441 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:219(next_steps)
+       11    6.250    0.568   82.500    7.500 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:80(next_steps)
+      443    0.020    0.000   78.811    0.178 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMx.py:79(transitionAndWeight)
+    12451   60.094    0.005   61.401    0.005 {method 'multivariate_normal' of 'mtrand.RandomState' objects}
+        8    0.064    0.008   48.970    6.121 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:160(PMCMCstep)
+      994    0.012    0.000   39.703    0.040 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/inline_tools.py:144(inline)
+      995   39.073    0.039   39.073    0.039 {apply}
+        3    0.008    0.003   36.850   12.283 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:125(increaseParticlesNb)
+      443    2.211    0.005   23.251    0.052 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/resampling.py:81(resample2D)
+      343    2.453    0.007   19.084    0.056 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:75(xresample)
+      100    0.906    0.009    7.526    0.075 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:143(xresample)
+      100    0.004    0.000    3.233    0.032 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMx.py:159(computeHscore)
+      466    0.004    0.000    3.016    0.006 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/numeric.py:86(zeros_like)
+       11    0.266    0.024    2.928    0.266 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:77(first_step)
+    12000    0.031    0.000    2.850    0.000 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMx.py:67(firstStateGenerator)
+      466    2.196    0.005    2.196    0.005 {numpy.core.multiarray.copyto}
+     3347    1.388    0.000    1.388    0.000 {numpy.core.multiarray.zeros}
+    51936    1.257    0.000    1.257    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+    12451    0.209    0.000    1.145    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/decomp_svd.py:15(svd)
+      466    0.814    0.002    0.814    0.002 {numpy.core.multiarray.empty_like}
+        4    0.000    0.000    0.657    0.164 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/inline_tools.py:373(attempt_function_call)
+        4    0.000    0.000    0.617    0.154 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/catalog.py:770(get_functions)
+        4    0.000    0.000    0.617    0.154 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/catalog.py:694(get_cataloged_functions)
+      443    0.003    0.000    0.559    0.001 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2180(amax)
+      443    0.001    0.000    0.556    0.001 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/_methods.py:25(_amax)
+    12451    0.203    0.000    0.413    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/lapack.py:447(_compute_lwork)
+    13348    0.033    0.000    0.394    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:1743(sum)
+        8    0.000    0.000    0.363    0.045 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumb_shelve.py:24(__getitem__)
+    13564    0.008    0.000    0.354    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/_methods.py:31(_sum)
+        8    0.000    0.000    0.323    0.040 /Users/jieding/anaconda/lib/python2.7/pickle.py:1386(loads)
+        8    0.000    0.000    0.322    0.040 /Users/jieding/anaconda/lib/python2.7/pickle.py:851(load)
+        5    0.000    0.000    0.322    0.064 /Users/jieding/anaconda/lib/python2.7/pickle.py:1093(load_global)
+        5    0.000    0.000    0.322    0.064 /Users/jieding/anaconda/lib/python2.7/pickle.py:1128(find_class)
+        6    0.322    0.054    0.322    0.054 {__import__}
+    12451    0.015    0.000    0.293    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/lapack.py:405(get_lapack_funcs)
+    12451    0.117    0.000    0.279    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/blas.py:223(_get_funcs)
+      443    0.002    0.000    0.261    0.001 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:2796(mean)
+      443    0.011    0.000    0.258    0.001 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/_methods.py:53(_mean)
+        4    0.000    0.000    0.251    0.063 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/catalog.py:459(get_catalog)
+        4    0.000    0.000    0.251    0.063 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumb_shelve.py:44(open)
+        4    0.008    0.002    0.251    0.063 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumb_shelve.py:20(__init__)
+        4    0.000    0.000    0.242    0.061 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumbdbm_patched.py:157(open)
+        4    0.000    0.000    0.242    0.061 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumbdbm_patched.py:39(__init__)
+        4    0.003    0.001    0.240    0.060 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/weave/_dumbdbm_patched.py:51(_update)
+    12451    0.068    0.000    0.225    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/_lib/_util.py:141(_asarray_validated)
+        1    0.012    0.012    0.209    0.209 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:204(first_step)
+     1524    0.209    0.000    0.209    0.000 {method 'readline' of 'file' objects}
+       25    0.067    0.003    0.191    0.008 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/lib/shape_base.py:20(apply_along_axis)
+    24902    0.038    0.000    0.159    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:1892(any)
+
+
+Sun Jan  8 21:51:35 2017    /tmp/prof(10)
+
+         970035 function calls in 122.652 seconds
+
+   Ordered by: internal time
+   List reduced from 226 to 50 due to restriction <50>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+    12451   60.094    0.005   61.401    0.005 {method 'multivariate_normal' of 'mtrand.RandomState' objects}
+      995   39.073    0.039   39.073    0.039 {apply}
+       11    6.250    0.568   82.500    7.500 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:80(next_steps)
+        1    3.203    3.203  122.441  122.441 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:219(next_steps)
+      343    2.453    0.007   19.084    0.056 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:75(xresample)
+      443    2.211    0.005   23.251    0.052 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/resampling.py:81(resample2D)
+      466    2.196    0.005    2.196    0.005 {numpy.core.multiarray.copyto}
+     3347    1.388    0.000    1.388    0.000 {numpy.core.multiarray.zeros}
+    51936    1.257    0.000    1.257    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+      100    0.906    0.009    7.526    0.075 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:143(xresample)
+      466    0.814    0.002    0.814    0.002 {numpy.core.multiarray.empty_like}
+        6    0.322    0.054    0.322    0.054 {__import__}
+       11    0.266    0.024    2.928    0.266 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/parallelSIRs.py:77(first_step)
+     1524    0.209    0.000    0.209    0.000 {method 'readline' of 'file' objects}
+    12451    0.209    0.000    1.145    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/decomp_svd.py:15(svd)
+    12451    0.203    0.000    0.413    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/lapack.py:447(_compute_lwork)
+        8    0.137    0.017    0.150    0.019 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:148(thetaresample)
+    12451    0.117    0.000    0.279    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/blas.py:223(_get_funcs)
+    12451    0.068    0.000    0.225    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/_lib/_util.py:141(_asarray_validated)
+       25    0.067    0.003    0.191    0.008 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/lib/shape_base.py:20(apply_along_axis)
+        8    0.064    0.008   48.970    6.121 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:160(PMCMCstep)
+    12451    0.062    0.000    0.062    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/getlimits.py:245(__init__)
+    12451    0.060    0.000    0.149    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:354(repeat)
+     5908    0.059    0.000    0.059    0.000 {method 'copy' of 'numpy.ndarray' objects}
+    12451    0.057    0.000    0.106    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/blas.py:177(find_best_blas_type)
+    12451    0.056    0.000    0.132    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/lib/function_base.py:959(asarray_chkfinite)
+    63564    0.055    0.000    0.055    0.000 {numpy.core.multiarray.array}
+    74723    0.046    0.000    0.046    0.000 {getattr}
+    24902    0.038    0.000    0.159    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:1892(any)
+     9000    0.038    0.000    0.040    0.000 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMtheta.py:39(logdprior)
+    12451    0.037    0.000    0.089    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:43(_wrapit)
+        8    0.035    0.004    0.035    0.004 {method 'seek' of 'file' objects}
+    13348    0.033    0.000    0.394    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/fromnumeric.py:1743(sum)
+    51728    0.031    0.000    0.031    0.000 {isinstance}
+    12000    0.031    0.000    2.850    0.000 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMx.py:67(firstStateGenerator)
+    25000    0.028    0.000    0.028    0.000 {method 'put' of 'numpy.ndarray' objects}
+    16000    0.028    0.000    0.048    0.000 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/src/smcsquare.py:185(multinorm_logpdf)
+    32032    0.026    0.000    0.026    0.000 {numpy.core.multiarray.dot}
+     1520    0.025    0.000    0.025    0.000 {eval}
+    12451    0.024    0.000    0.041    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/numerictypes.py:964(find_common_type)
+    25361    0.024    0.000    0.029    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/numeric.py:484(asanyarray)
+     8451    0.023    0.000    0.023    0.000 {method 'uniform' of 'mtrand.RandomState' objects}
+    25201    0.020    0.000    0.043    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/numeric.py:414(asarray)
+      443    0.020    0.000   78.811    0.178 /Users/jieding/Dropbox/MyResearch2016/Hrule_SSM_Pierre/py-smc2-master/models/nestedLGSSMx.py:79(transitionAndWeight)
+    12451    0.018    0.000    0.018    0.000 {method 'repeat' of 'numpy.ndarray' objects}
+    12902    0.017    0.000    0.017    0.000 {method 'astype' of 'numpy.ndarray' objects}
+    24910    0.015    0.000    0.095    0.000 {method 'any' of 'numpy.ndarray' objects}
+    12451    0.015    0.000    0.293    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/scipy/linalg/lapack.py:405(get_lapack_funcs)
+    24902    0.015    0.000    0.017    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/numerictypes.py:942(_can_coerce_all)
+    25010    0.012    0.000    0.080    0.000 /Users/jieding/anaconda/lib/python2.7/site-packages/numpy/core/_methods.py:37(_any)
+
+
